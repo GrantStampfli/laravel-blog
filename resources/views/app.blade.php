@@ -10,7 +10,33 @@
 
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			color: #B0BEC5;
+			font-weight: 100;
+			font-family: 'Lato';
+		}
+
+		.content {
+			text-align: center;
+			display: inline-block;
+		}
+
+		.title {
+			font-size: 96px;
+			margin-bottom: 40px;
+		}
+
+		.quote {
+			font-size: 24px;
+		}
+	</style>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
