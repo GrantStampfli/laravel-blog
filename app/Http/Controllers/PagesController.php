@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller {
 
-	//
+	public function about(){
+		$name = "Now Nerd";
+		return view('about')->with('name', $name);
+	}
 
 }
