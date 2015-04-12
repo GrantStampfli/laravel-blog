@@ -22,7 +22,9 @@
 			font-weight: 100;
 			font-family: 'Lato';
 		}
-
+		.contact {
+			margin-top: 50px;
+		}
 		.content {
 			text-align: center;
 			display: inline-block;
@@ -35,6 +37,9 @@
 
 		.quote {
 			font-size: 24px;
+		}
+		.form-group > div {
+			margin-bottom: 10px;
 		}
 	</style>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

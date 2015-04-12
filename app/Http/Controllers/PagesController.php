@@ -11,5 +11,7 @@ class PagesController extends Controller {
 		$name = "Now Nerd";
 		return view('about')->with('name', $name);
 	}
-
+	public function contact() {
+		return view('contact');
+	}
 }
