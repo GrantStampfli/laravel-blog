@@ -1,7 +1,7 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Blog\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Blog\Http\Requests;
+use Blog\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
