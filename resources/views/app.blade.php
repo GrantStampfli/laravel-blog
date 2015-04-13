@@ -65,6 +65,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="{{ url('archive') }}">Archive</a></li>
 					<li><a href="{{ url('about') }}">About</a></li>
 					<li><a href="{{ url('contact') }}">Contact</a></li>
 				</ul>

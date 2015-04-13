@@ -10,3 +10,5 @@ Route::controllers([
 ]);
 
 Route::get('contact', 'PagesController@contact');
+
+Route::get('archive', 'PagesController@archive');

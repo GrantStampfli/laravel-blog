@@ -7,11 +7,19 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller {
 
-	public function about(){
+	public function about()
+    {
 		$name = "Now Nerd";
 		return view('about')->with('name', $name);
 	}
-	public function contact() {
+
+	public function contact()
+    {
 		return view('contact');
 	}
+
+    public function archive()
+    {
+        return view('archive');
+    }
 }
