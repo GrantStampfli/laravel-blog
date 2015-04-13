@@ -18,8 +18,4 @@ class PagesController extends Controller {
 		return view('contact');
 	}
 
-    public function archive()
-    {
-        return view('archive');
-    }
 }
